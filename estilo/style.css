@@ -70,16 +70,29 @@ section {
 
 }
 
-section h2 {
+section > h2 {
 
     font-family: var(--fontetitulo);
     font-size: 3em;
     color: black;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+section > p {
+
+    padding-bottom: 2em;
 }
 
 section.castelo {
 
     background-image: url('../imagens/castelo.jpg');
+    height: 80vh;
+    
+    background-position: center center;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.686);
     
 }
 
