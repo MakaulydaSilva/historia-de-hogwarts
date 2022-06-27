@@ -66,14 +66,21 @@ header > p {
 
 section {
 
+    padding-top: 30px;
+
 }
 
-se
+section h2 {
 
-section#castelo {
+    font-family: var(--fontetitulo);
+    font-size: 3em;
+    color: black;
+}
+
+section.castelo {
 
     background-image: url('../imagens/castelo.jpg');
-    width: 50vp;
+    
 }
 
 
