@@ -31,16 +31,16 @@ html, body {
 
     min-height: 100vh;
     font-family: var(--fontetexto);
-    background-color: gray;
-
+    background-color: white;
 
 }
 
 header {
 
     background-color: var(--cor03);
-   
     text-align: center;
+   
+
 }
 
 header > h1 {
@@ -60,8 +60,24 @@ header > p {
     margin-top: 20px;
     padding-top: 50px;
     font-family: var(--fontetitulo);
-    color: white;
+    color: var(--cor02);
+    text-decoration: underline;
+    text-decoration-color: #5D98A6;
     font-size: 1.5em;
+}
+
+header.castelo {
+
+    background-image: url('../imagens/castelo02.jpg');
+    background-attachment: fixed;
+  
+    
+}
+
+main {
+
+    
+    margin: auto;
 }
 
 section {
@@ -83,16 +99,8 @@ section > h2 {
 section > p {
 
     padding-bottom: 2em;
-}
-
-section.castelo {
-
-    background-image: url('../imagens/castelo.jpg');
-    height: 80vh;
-    
-    background-position: center center;
-    background-attachment: fixed;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.686);
+    font-size: 1.5em;
+    background-size: cover
     
 }
 
