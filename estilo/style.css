@@ -101,6 +101,17 @@ section {
 
 }
 
+section > picture.imgcastelo {
+
+   
+    margin: auto;
+    
+    
+    
+    
+    
+}
+
 section > h2 {
 
     font-family: var(--fontetitulo);
