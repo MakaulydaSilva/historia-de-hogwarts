@@ -31,15 +31,16 @@ html, body {
 
     min-height: 100vh;
     font-family: var(--fontetexto);
-    background-color: white;
+    background-color: #5d97a612;
 
 }
 
 header {
 
-    background-color: var(--cor03);
+    background-color: white;
     text-align: center;
-   
+    box-shadow: 1px 1px 1px 1px rgba(47, 46, 46, 0.205);
+    padding-bottom: 30px;
 
 }
 
@@ -49,7 +50,8 @@ header > h1 {
     padding-top: 50px;
     font-size: 5em;
     color: var(--cor02);
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.46);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.526);
+    
    
 }
 
@@ -60,17 +62,23 @@ header > p {
     margin-top: 20px;
     padding-top: 50px;
     font-family: var(--fontetitulo);
-    color: var(--cor02);
-    text-decoration: underline;
+    color: var(--cor01);
+    
     text-decoration-color: #5D98A6;
     font-size: 1.5em;
 }
 
 header.castelo {
 
-    background-image: url('../imagens/castelo02.jpg');
+    background-image: url('../imagens/hogwarts.png');
     background-attachment: fixed;
-  
+    background-repeat: no-repeat;
+    background-position: top center;
+    
+    
+    
+    
+      
     
 }
 
@@ -78,6 +86,13 @@ main {
 
     
     margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+
+    
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 section {
@@ -100,7 +115,13 @@ section > p {
 
     padding-bottom: 2em;
     font-size: 1.5em;
-    background-size: cover
+    
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+    margin: 15px 0px;
+    padding: 20px;
     
 }
 
