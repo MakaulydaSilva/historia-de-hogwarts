@@ -110,6 +110,15 @@ section {
     margin-right: auto;
 
  }
+
+ img.casas {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+    margin-top: 30px;
+
+ }
  
 
 
@@ -166,6 +175,25 @@ section > ul {
     color: var(--cor04);
 }
 
+footer {
+
+    background-color: black;
+  
+    padding: 10px;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
+}
 
 
 
