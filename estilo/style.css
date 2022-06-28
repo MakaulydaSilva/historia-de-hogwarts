@@ -177,6 +177,21 @@ section > ul {
     color: var(--cor04);
 }
 
+#final a {
+
+    text-decoration: none;
+    color: black;
+    
+
+   
+}
+
+#final a:hover {
+    background-color: #1F714D;
+}
+
+
+
 footer {
 
     background-color: black;
@@ -196,8 +211,12 @@ footer > p > a {
 
 footer > p > a:hover {
     text-decoration: underline;
+   
     
 }
+
+
+
 
 
 
