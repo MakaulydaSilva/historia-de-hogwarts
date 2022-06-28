@@ -53,6 +53,7 @@ header > h1 {
     font-size: 7em;
     color: var(--cor02);
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.526);
+    width: 100%;
     
    
 }
@@ -107,6 +108,11 @@ main img {
     margin-right: auto;
 
     
+ }
+
+ img.casas { 
+
+    margin-top: 30px;
  }
 
  
